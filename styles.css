@@ -1,0 +1,54 @@
+body {
+    background-image: url(b1d6f902df1221aa78f8d546ac052ffb.jpg);
+    
+    
+}
+
+#navDiv {
+    margin-bottom:20px;
+}
+
+#bannerImage {
+    z-index: 1;
+    display: absolute;
+}
+li {
+    display: inline;
+    background-color: aqua;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 5px;
+    z-index: -1;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    min-height: 50px;
+    min-width: 200px;
+    
+}
+
+p {
+    background-color: aqua;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    margin: 5px;
+    max-width: 60%;
+    
+}
+li a{
+    text-decoration:  none;
+}
+
+li a:hover   {
+  /* Applies to links under the pointer */
+  text-decoration:  underline;
+  } 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
